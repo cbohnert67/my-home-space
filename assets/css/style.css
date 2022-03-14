@@ -27,6 +27,17 @@ nav {
     background-color: #FFFFFF;
 }
 
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
 h1 {
     margin-top: 10%;
     font: 3.5rem sans-serif;
@@ -76,6 +87,7 @@ footer {
 
 
 .nav-bar {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -96,6 +108,13 @@ footer {
     padding: 0% 1%;
 }
 
+.home a {
+    color: #FFFFFF;
+}
+
+
+
+
 .about {
     text-transform: uppercase;
     text-align: center;
@@ -103,6 +122,14 @@ footer {
     height: 100px;
     margin: 0% 2% 0% 2%;
     padding: 0% 1%;
+}
+
+.about a {
+    color: #000000;
+}
+
+.about:hover a {
+    color: #FFFFFF;
 }
 
 .about:hover {
@@ -125,6 +152,13 @@ footer {
     padding: 0% 1%;
 }
 
+.products a {
+     color: #000000;
+}
+
+.products:hover a {
+    color: #FFFFFF;
+}
 .products:hover {
     color: #FFFFFF;
     background-color: #736B65;
@@ -146,6 +180,14 @@ footer {
     padding: 0% 1%;
 }
 
+.service a {
+    color: #000000;
+}
+
+.service:hover a {
+    color: #FFFFFF;
+}
+
 .service:hover {
     color: #FFFFFF;
     background-color: #736B65;
@@ -164,6 +206,13 @@ footer {
     height: 100px;
     margin: 0% 2% 0% 2%;
     padding: 0% 1%;
+}
+
+.contact a {
+    color: #000000;
+}
+.contact:hover a {
+    color: #FFFFFF;
 }
 
 .contact:hover {
