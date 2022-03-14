@@ -1,0 +1,411 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+width: 100%;
+user-select: none;
+/*border: 1px solid red;*/
+}
+
+body {
+    background-color: #736B65;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 98%;
+    background-color: #FFFFFF;
+    margin: 1% 20% 1% 20%;
+
+}
+
+nav {
+    width: 100%;
+    height: 20%;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    margin-top: 10%;
+    font: 3.5rem sans-serif;
+}
+
+h2 {
+    position: relative;
+    top: 37%;
+    font: 1.2rem sans-serif;
+    letter-spacing: 0.1rem;
+    
+}
+
+h3 {
+    position: relative;
+    top: 5%;
+    margin-bottom: 5%;
+    font: 1.1rem sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+ul {
+    list-style-image: url('./img/arrow.png');
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+li {
+    margin: -5% 0% 5% 0%;
+    font: 0.8rem sans-serif;
+}
+
+p {
+    margin: 5% 0%;
+    font: 0.8rem sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #000000;
+    padding: 5% 1% 2% 1%;
+    margin-top: 2%;
+}
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 5%;
+    height: 100px;
+    
+}
+
+.home {
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    height: 100px;
+    background-color: #592A2E;
+    color: #FFFFFF;
+    margin: 0% 2% 0% 2%;
+    padding: 0% 1%;
+}
+
+.about {
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    height: 100px;
+    margin: 0% 2% 0% 2%;
+    padding: 0% 1%;
+}
+
+.about:hover {
+    color: #FFFFFF;
+    background-color: #736B65;
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    height: 100px;
+    margin: 0% 2% 0% 2%;
+    padding: 0% 1%;
+}
+
+.products {
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    height: 100px;
+    margin: 0% 2% 0% 2%;
+    padding: 0% 1%;
+}
+
+.products:hover {
+    color: #FFFFFF;
+    background-color: #736B65;
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    height: 100px;
+    margin: 0% 2% 0% 2%;
+    padding: 0% 1%;
+}
+
+
+.service {
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    height: 100px;
+    margin: 0% 2% 0% 2%;
+    padding: 0% 1%;
+}
+
+.service:hover {
+    color: #FFFFFF;
+    background-color: #736B65;
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    height: 100px;
+    margin: 0% 2% 0% 2%;
+    padding: 0% 1%;
+}
+
+.contact {
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    height: 100px;
+    margin: 0% 2% 0% 2%;
+    padding: 0% 1%;
+}
+
+.contact:hover {
+    color: #FFFFFF;
+    background-color: #736B65;
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    height: 100px;
+    margin: 0% 2% 0% 2%;
+    padding: 0% 1%;
+}
+
+
+.title {
+    display: block;
+    height: 300px;
+    text-align: center;
+}
+
+#my {
+    position: relative;
+    left: 0.15%;
+    font-weight: 100;
+    letter-spacing: -0.3rem;
+    
+    
+}
+#home {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #592A2E;
+}
+#space {
+    position: relative;
+    right: 0.65%;
+    font-weight: 100;
+    letter-spacing: -0.3rem;
+}
+
+
+/*.carousel {
+    display: block;
+    object-fit: cover;
+}*/
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 3%;
+    margin-top: 2%;
+    height: 100%;
+}
+
+.last-work, .product, .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 2% 0 2%;
+    background-color: #736B65;
+}
+
+.last-work-title, .product-title, .services-title {
+    height: 66px;
+    background-color: #592A2E;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.last-work-img, .product-img, .services-img {
+    display: block;
+    object-fit: cover;
+}
+
+.last-work-txt, .product-txt, .services-txt {
+    font: 0.9rem sans-serif;
+    color: #FFFFFF;
+    height: 160px;
+    padding: 5% 3% 0% 5%;
+}
+
+.plus-btn {
+    background-image: url('../img/plus_btn.png');
+    align-self: flex-end;
+    height: 64px;
+    width: 64px;
+}
+
+
+.plus-btn:hover {
+    background-image: url('../img/plus_btn_h.png');
+    align-self: flex-end;
+    height: 64px;
+    width: 64px;
+}
+
+.texts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 3%;
+    margin-top: 5%;
+    height: 100%;
+}
+
+.testimonial, .premium-service, .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 2% 0 2%;
+    background-color:#FFFFFF;
+
+}
+
+.highlight {
+    color: #592A2E;
+    font-weight: bold;
+}
+
+.read-more-btn {
+    width: 40%;
+    padding: 5%;
+    background-color:#736B65;
+    color: #FFFFFF;
+    font: 0.9rem sans-serif;
+    border: none;
+}
+
+.liens-reseaux {
+    position: relative;
+    right: 3%;
+    background-image: url("../img/liens_reseaux_gris.png");
+    width: 110px;
+    height: 35px;
+}
+
+.liens-reseaux:hover {
+    position: relative;
+    right: 3%;
+    background-image: url("../img/liens_reseaux.png");
+    width: 110px;
+    height: 35px;
+}
+
+.designer {
+    margin-left: 3%;
+    font: 1rem sans-serif;
+}

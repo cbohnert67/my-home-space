@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+    <title>MyHomeSpace</title>
+</head>
+<body>
+    <main>
+
+        <!-- Navigation bar-->
+        <nav>
+            <div class="nav-bar">
+                <div class="home"><h2>home</h2></div>
+                <div class="about"><h2>about us</h2></div>
+                <div class="products"><h2>products</h2></div>
+                <div class="service"><h2>service</h2></div>
+                <div class="contact"><h2>contact</h2></div>
+            </div>
+        </nav>
+        
+        <!-- Title section -->
+        <section class="title">
+            <h1>
+                <span id="my">My</span><span id="home">Home</span><span id="space">Space</span>
+            </h1>
+        </section>
+
+         <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="./assets/img/carousel-1.jpg" style="width:100%" alt="Un beau salon">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="./assets/img/carousel-2.jpg" style="width:100%" alt="Un beau salon">
+            </div>
+        
+            <div class="mySlides fade">
+            <img src="./assets/img/carousel-3.jpg" style="width:100%" alt="Un beau salon">
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div> 
+
+
+        <!-- Cards container-->
+        <section class="cards-container">
+            <!-- Last work card-->
+            <div class="last-work">
+                <div class="last-work-title">
+                    <h2>Last work</h2> 
+                </div>
+                <div class="last-work-img">
+                    <img src="./assets/img/pic1.jpg" alt="Last work">
+                </div>
+                <div class="last-work-txt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies massa est, vel varius velit porttitor vel. Nam finibus tempus mollis. Phasellus eget pharetra erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+                    
+                </div>
+                <div class="plus-btn"></div>
+            </div>
+            <!-- Product card-->
+            <div class="product">
+                <div class="product-title">
+                    <h2>Products</h2>
+                </div>
+                <div class="product-img">
+                    <img src="./assets/img/pic2.jpg" alt="Our Products">
+                </div>
+                <div class="product-txt">
+                    Nam eros tellus, laoreet ut nibh ac, euismod sodales nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In sodales bibendum tempus. Duis posuere est in massa pharetra, eget finibus est ultrices.
+                </div>
+                <div class="plus-btn"></div>
+            </div>
+            <!-- Services card-->
+            <div class="services">
+                <div class="services-title">
+                    <h2>Services</h2>
+                </div>
+                <div class="services-img">
+                    <img src="./assets/img/pic3.jpg" alt="Our services">
+                </div>
+                <div class="services-txt">
+                    Etiam et odio cursus, molestie ipsum vel, sodales libero. Ut auctor posuere justo, sed accumsan leo tincidunt vel. Suspendisse non turpis malesuada, elementum velit vel, dictum nunc. Fusce sed ante sed diam mollis condimentum.
+                    
+                </div>
+                <div class="plus-btn"></div>
+            </div>
+        </section>
+
+        <!-- Text container -->
+        <div class="texts-container">
+            <!-- Testimonial div -->
+            <div class="testimonial">
+                <h3>Testimonial</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla amet minus, quasi.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam magni rerum iure! Consequatur enim assumenda ab.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, pariatur omnis culpa reiciendis.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic sit, nulla aut ratione error adipisci?</li>
+                </ul>
+            </div>
+            <!-- Premium service div -->
+            <div class="premium-service">
+                <h3>Premium Services</h3>
+                <p class="highlight">Lipsum dolor sit amet consectetur adipisicing elit. Dolorum animi labore nobis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore odit nulla cumque harum natus tenetur accusantium alias enim laudantium, voluptatem omnis facere? Sequi architecto, sint nobis ipsam modi similique perferendis.</p>
+                <button class="read-more-btn" type="button" onclick="alert('Read more about our premium services!')">Read More</button> 
+            </div>
+            <!-- About us div -->
+            <div class="about-us">
+                <h3>About us</h3>
+                <p class="highlight">Lipsum dolor sit amet consectetur adipisicing elit. Dolorum animi labore nobis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore odit nulla cumque harum natus tenetur accusantium alias enim laudantium, voluptatem omnis facere? Sequi architecto, sint nobis ipsam modi similique perferendis.</p>
+                <button class="read-more-btn" type="button" onclick="alert('Read more about us!')">Read More</button> 
+            </div>
+
+        </div>
+
+        <!-- Footer section -->
+        <footer>
+            <div class="designer">Design by Lspace</div>
+            <div class="liens-reseaux"></div>
+        </footer>
+
+    </main>
+</body>
+</html>
