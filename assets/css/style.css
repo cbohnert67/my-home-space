@@ -374,7 +374,7 @@ footer {
 }
 
 .last-work-title, .product-title, .services-title {
-    height: 66px;
+   padding: 10% 0;
     background-color: #592A2E;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -389,7 +389,7 @@ footer {
 .last-work-txt, .product-txt, .services-txt {
     font: 0.9rem sans-serif;
     color: #FFFFFF;
-    height: 160px;
+    
     padding: 5% 3% 0% 5%;
 }
 
