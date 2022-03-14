@@ -6,6 +6,6 @@ Il s'agit de reproduire une page web à partir d'une maquette.
 
 Compétences :
 
-HTML5 
-CSS3
-Javascript
+* HTML5 
+* CSS3
+* Javascript
