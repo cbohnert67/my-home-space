@@ -2,7 +2,7 @@
 
 Un premier projet d'intégration web dans le cadre de la formation Concepteur Développeur d'applications fullstack.
 
-Il s'agit de reproduire une page web à partir d'une maquette.
+Il s'agit de reproduire une page web (version PC non responsive) à partir d'une maquette.
 
 Compétences :
 
